@@ -1,0 +1,54 @@
+default partial modifier_keys
+xkb_symbols "basic" {
+        include "level3(ralt_switch)"
+        name[Group1]= "Emoji Keyboard";
+
+        key <TLDE> { [ U2010, U2013, U2014, U2053 ] };
+        key <AE01> { [ U2018, U2019, U201C, U201D ] };
+        key <AE02> { [ U2020, U2021, U2026, UB6 ] };
+        key <AE03> { [ U2022, U2023, U22C5, U2027 ] };
+        key <AE04> { [ U2032, U2033, U2034, U2057 ] };
+        key <AE05> { [ U203D, U203E, U2042, UA7 ] };
+        key <AE06> { [ UA9, U2122, UAE, U3C0 ] };
+        key <AE07> { [ UD7, UF7, UB0, UB5 ] };
+        key <AE08> { [ U2212, UB1, U2213, U221A ] };
+        key <AE09> { [ U221E, U2211, U221F, U2220 ] };
+        key <AE09> { [ U2200, U2205, U2203, U2204 ] };
+        key <AE10> { [ U2208, U2209, U220B, U220C ] };
+        key <AE11> { [ U2227, U2228, U2229, U222A ] };
+        key <AE12> { [ U222B, U2260, U2234, U2235 ] };
+        key <AD01> { [ U1F5FA, U1F618, U1F61C, U1F1F6 ] };
+        key <AD02> { [ U1F469, U1F61F, U26A0, U1F1FC ] };
+        key <AD03> { [ U1F47D, U267B, U2697, U1F1EA ] };
+        key <AD04> { [ U2622, U1F622, U1F62B, U1F1F7 ] };
+        key <AD05> { [ U1F602, U260E, U1F914, U1F1F9 ] };
+        key <AD06> { [ U1F644, U2699, U269C, U1F1FE ] };
+        key <AD07> { [ U1F612, U2B50, U231A, U1F1FA ] };
+        key <AD08> { [ U1F47F, U1F308, U262A, U1F1EE ] };
+        key <AD09> { [ U1F916, U1F4A3, U2626, U1F1F4 ] };
+        key <AD10> { [ U1F4A9, U1F4F0, U262E, U1F1F5 ] };
+        key <AD11> { [ U2248, U2245, U2282, U2283 ] };
+        key <AD12> { [ U2264, U2265, U2268, U2269 ] };
+        key <BKSL> { [ U2044, U200D, U202E, U202D ] };
+        key <AC01> { [ U1F607, U2708, U269B, U1F1E6 ] };
+        key <AC02> { [ U1F6F0, U2620, U2600, U1F1F8 ] };
+        key <AC03> { [ U1F608, U2721, U2638, U1F1E9 ] };
+        key <AC04> { [ U2639, U23F3, U1F0CF, U1F1EB ] };
+        key <AC05> { [ U1F467, U1F600, U1F310, U1F1EC ] };
+        key <AC06> { [ U2764, U1F494, U231B, U1F1ED ] };
+        key <AC07> { [ U1F511, U1F512, U1F513, U1F1EF ] };
+        key <AC08> { [ U1F648, U1F649, U1F64A, U1F1F0 ] };
+        key <AC09> { [ U1F60D, U2696, U271D, U1F1F1 ] };
+        key <AC10> { [ U1F3FB, U1F3FC, U1F3FD, U1F3FE ] };
+        key <AC11> { [ U1F3FF, U202C, U2028, U2029 ] };
+        key <AB01> { [ U1F52B, U1F52C, U1F52D, U1F1FF ] };
+        key <AB02> { [ U1F576, U1F4D6, U1F4E1, U1F1FD ] };
+        key <AB03> { [ U2601, U2604, U262D, U1F1E8 ] };
+        key <AB04> { [ U1F3AE, U1F5DD, U1F5E1, U1F1FB ] };
+        key <AB05> { [ U1F466, U1F525, U2623, U1F1E7 ] };
+        key <AB06> { [ U1F620, U1F319, U1F913, U1F1F3 ] };
+        key <AB07> { [ U2642, U2640, U1F468, U1F1F2 ] };
+        key <AB08> { [ U221D, U22BB, U22BC, U22BD ] };
+        key <AB09> { [ U2223, U2224, U2225, U2226 ] };
+        key <AB10> { [ UA0, U200C, U200B, U34F ] };
+};
